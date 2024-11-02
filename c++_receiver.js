@@ -1,6 +1,6 @@
 import fs from 'fs'
 import net from 'net'
-const PORT=3001
+const PORT=8000
 const server=net.createServer((socket)=>
 {
     const ws=fs.createWriteStream('cpp-received.cpp');
